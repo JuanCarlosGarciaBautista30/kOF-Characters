@@ -1,0 +1,9 @@
+<ul class="list-group">
+  <li
+    class="list-group-item"
+    *ngFor="let fighter of onlyFight; let i = index">
+      <span class="text-primary">{{ i +1 }} </span>
+      <span>Nombre: <strong> {{fighter.name}} </strong></span>
+      <span>Poder de Golpe: <strong> {{fighter.punchPower}} </strong></span>
+  </li>
+</ul>
